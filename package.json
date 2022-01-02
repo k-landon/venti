@@ -10,6 +10,9 @@
     "type": "git",
     "url": "git+https://github.com/k-landon/venti.git"
   },
+	"dependencies": {
+    "discord.js": "^13.5.0"
+  },
   "author": "",
   "license": "ISC",
   "bugs": {
