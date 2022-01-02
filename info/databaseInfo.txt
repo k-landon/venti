@@ -1,0 +1,72 @@
+ID FORMAT
+
+FIRST 2 DIGITS
+
+Sets: 0X
+
+Characters: 1x
+
+Artifacts: 2x
+Weapons: 3x
+
+Domains: 4x
+
+Enemies: 5x
+	Weekly Bosses 0
+	Lvl Ascension Bosses 1
+
+Character Ascension Materials 6x
+	Character & Weapon LEVEL UP: 0
+	Boss Talent Material: 1
+	Boss Level Material: 2
+	Level Material: 3
+	Talent Books: 4
+	Weapon Ascension Material: 5
+
+Furnishings: 7x
+
+Other Items: 8x
+	Food: 0
+	Materials: 1
+	Gadget: 2
+	Quest: 3
+	Precious Items: 4
+
+OTHER DIGITS ((X)ABCD)
+
+Character:
+		X: 	Element
+			"Pyro"
+			"Hydro"
+			"Dendro"
+			"Electro"
+			"Anemo"
+			"Cryo"
+			"Geo"
+		A:	Weapon
+			"Sword"
+			"Claymore"
+			"Bow "
+			"Polearm"
+			"Catalyst"
+		BCD: ID in release order
+
+Weapon:
+	X: Rarity
+	A: Type
+	BCD:	ID in release order
+
+Artifacts
+	XA: Series
+	BC: Domain
+	D:	Flower/Sands/etc.
+
+Domains:
+	X: Region
+	A: Type
+	BCD: ID in release order
+
+Sets:
+	X: Broad Type
+	A: Specific type
+	BCD: Idenitifer

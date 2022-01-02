@@ -6,6 +6,7 @@ const dotenv = require('dotenv');
 (async () => {
 
 dotenv.config();
+
 // Create a new client instance
 const client = new Client({ intents: [Intents.FLAGS.GUILDS] });
 

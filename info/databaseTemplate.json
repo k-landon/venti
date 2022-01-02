@@ -1,0 +1,134 @@
+// Character
+{
+	"_id": 1XABCD
+	"name":
+	"weapon": "Sword", "Claymore", "Bow", "Polearm", "Catalyst",
+	"element": "Pyro", "Hydro", "Dendro", "Electro", "Anemo", "Cryo", "Geo",
+	"rarity": 4, 5,
+	"talents":
+	[
+		{
+			"name":
+			"type": "Basic Attack"
+		},
+		{
+			"name":
+			"type": "Elemental Skill"
+			"description":
+		},
+		{
+			"name":
+			"type": "Alternate Sprint"
+			"description":
+		},
+		{
+			"name":
+			"type": "Elemental Burst"
+			"description":
+		},
+		{
+			"name":
+			"type": "1st Ascension Passive"
+			"description":
+		},
+		{
+			"name":
+			"type": "3rd Ascension Passive"
+			"description":
+		},
+		{
+			"name":
+			"type": "Exploration Talent"
+			"description":
+		},
+		{
+			"name":
+			"type": "Additional Talent"
+			"description":
+		},
+	]
+	"constellations":,
+	[
+		{
+			"name":
+			"level": 1
+			"description":
+		},
+		{
+			"name":
+			"level": 2
+			"description":
+		},
+		{
+			"name":
+			"level": 3
+			"description":
+		},
+		{
+			"name":
+			"level": 4
+			"description":
+		},
+		{
+			"name":
+			"level": 5
+			"description":
+		},
+		{
+			"name":
+			"level": 6
+			"description":
+		},
+	]
+}
+
+//ARTIFACT (piece)
+{
+	"_id": 2XABCD
+	"name":
+	"series": 020BCD
+	"piece": "Flower of Life", "Plume of Death", "Sands of Eon", "Goblet of Eonothem", "Circlet of Logos",
+	"description":
+}
+
+
+//ARTIFACT (set)
+{
+	"_id": 020BCD
+	"name": ARTIFACT SET
+	"series":
+	"location":
+	"bonus":
+	{
+		"2-Piece Bonus":
+		"4-Piece Bonus":
+	},
+	"pieces":
+	[
+		"Flower of Life": 2XABCD
+		"Plume of Death": 2XABCD
+		"Sands of Eon": 2XABCD
+		"Goblet of Eonothem": 2XABCD
+		"Circlet of Logos": 2XABCD
+	]
+}
+
+//WEAPON ENTRY
+{
+	"_id": 3XABCD,
+	"name": "NO",
+	"rarity": 1, 2, 3, 4, 5,
+	"type": "Sword", "Claymore", "Bow", "Polearm", "Catalyst",
+	"stat": [
+		{
+			"type": "main",
+			"max": "no"
+		},
+		{
+			"type": "sub",
+			"name": "CEI",
+			"max": "34"
+		}
+	],
+	"description": "",
+}
