@@ -3,21 +3,33 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "keywords": [
+    "heroku",
+    "discord.js"
+  ],
+  "engines": {
+    "node": "16.x",
+    "npm": "*"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/k-landon/venti.git"
-  },
-	"dependencies": {
-    "discord.js": "13.5.0",
-		"node.js": "16.13.0"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/k-landon/venti/issues"
   },
-  "homepage": "https://github.com/k-landon/venti#readme"
+  "homepage": "https://github.com/k-landon/venti#readme",
+  "dependencies": {
+    "async": "^3.2.2",
+    "discord.js": "^13.5.0",
+    "mogodb": "^0.0.1-security",
+    "mongoose": "^6.1.4",
+    "node.js": "^0.0.1-security"
+  }
 }

@@ -1,3 +1,4 @@
 config.json
 *.env
 mongo.pem
+node_modules/
